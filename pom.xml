@@ -14,7 +14,7 @@
 
    <groupId>pl.goldmann.work</groupId>
    <artifactId>node-info</artifactId>
-   <version>1.0.0</version>
+   <version>${version}</version>
    <packaging>war</packaging>
    <name>Simple node information</name>
    <description>Application to display the JBoss AS node configuration</description>
@@ -91,12 +91,12 @@
     <repository>
       <id>deployment</id>
       <name>Internal Releases</name>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>deployment</id>
       <name>Internal Releases</name>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
    </distributionManagement>
    
